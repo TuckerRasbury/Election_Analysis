@@ -12,7 +12,7 @@ The election audit consists of the tasks below:
 
 ## Resources
 - Data Source: election_results.csv
-- Python file for review: ![][PyPoll_Challenge.py]
+- Python file for review: (https://github.com/TuckerRasbury/Election_Analysis/blob/main/PyPoll_Challenge.py)
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Election-Audit Results
