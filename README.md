@@ -33,4 +33,14 @@ The analysis of the election shows that:
  *_My code will report that the largest county turnout was Arapahoe. This is an error identified by eye, that we were unable to correct prior to submission._
   
 ## Election-Audit Summary
+With great deference, I would like to offer a proposal to the election commission on how our work with this election can be used-with some modifications-for any election. The easiest uplift I am proposing would be a modification, an increase, in the available data. The second uplift, hinging on the first to some degree, would be the addition of a loop to be able to obtain similar election results at the state and county level. I will explore these options briefly now.
 
+### An Increase in Data
+The available data is limited to three counties. The tool we built has the capacity to analyze a much longer list of counties. In theory, the most crucial for loop in this project could compile an infinitely longer list of counties than was compiled in this project, limited only by the size of the available memory. For those with an affinity for seeing the code in question for themselves, please see the below.
+
+#### _For Loop that Compiles List of Counties_
+![](Crucial_For_Loop.png)
+
+For those preferring a summation of the code in question, the possibilities here are endless. If more counties were added, the county_list = [] variable we created on line 24, candidate_options = [] variable created on line 17, and the for loop beginning on line 49 could create a similar audit for each.  A limitation here would be that there might not be any separation between different elections. This is where we get into our second proposal for an additional loop.
+
+### Another Loop
