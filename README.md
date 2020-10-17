@@ -10,8 +10,9 @@ The election audit consists of the tasks below:
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
 
-## Resoureces
+## Resources
 - Data Source: election_results.csv
+- Python file for review:
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
 ## Election-Audit Results
