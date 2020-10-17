@@ -41,6 +41,7 @@ The available data is limited to three counties. The tool we built has the capac
 #### _For Loop that Compiles List of Counties_
 ![](Crucial_For_Loop.png)
 
-For those preferring a summation of the code in question, the possibilities here are endless. If more counties were added, the county_list = [] variable we created on line 24, candidate_options = [] variable created on line 17, and the for loop beginning on line 49 could create a similar audit for each.  A limitation here would be that there might not be any separation between different elections. This is where we get into our second proposal for an additional loop.
+For those preferring a summation of the code in question, the possibilities here are endless. If more counties were added, the county_list = [] variable we created on line 24, candidate_options = [] variable created on line 17, and the for loop beginning on line 49 could create a similar audit for each.  A limitation here would be that there would not be any separation between different elections. This method would still compare all of the counties and candidates as if they were apart of the same election. This is where we get into our second proposal for an additional loop.
 
 ### Another Loop
+The loop that compiles a list of counties could be built upon if we had a variable denoting which state the election was in and another denoting which candidates were in the same election. With those two theoretical values, we could create a for loop to begin going through the data by the state and then begin the for loop for the counties. After that the loop would ideally begin on the next state until all voting states were done.
