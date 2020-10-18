@@ -30,6 +30,9 @@ The analysis of the election shows that:
 - The winner of the election was:
   - Candidate (2) Diana Degette who received "73.8%" of the vote and 272,892 number of votes.
   
+ #### _Snapshot of Election Results_
+ ![](Election%20Results%20Snapshot.png)
+  
  *_My code will report that the largest county turnout was Arapahoe. This is an error identified by eye, that we were unable to correct prior to submission._
   
 ## Election-Audit Summary
